@@ -3,6 +3,7 @@ namespace Blog.API.Services.UtilityServices;
 
 public class UtilityServices
 {
+    //optimize the code
     public void SortNumbers(List<int> numbers)
     {
         for (int i = 0; i < numbers.Count; i++)
@@ -36,6 +37,7 @@ public class UtilityServices
         }
     }
 
+    //optimize the code
     public static int Fibonacci(int n)
     {
         if (n <= 0)
@@ -85,6 +87,7 @@ public class UtilityServices
         }
     }
 
+    //fix the bug
     public static int Factorial(int n)
     {
         if (n == 0)
@@ -97,6 +100,7 @@ public class UtilityServices
         }
     }
 
+    //optimize the code with proper naming
     public int WhatIsMax(List<int> nums)
     {
         if (nums.Count == 0)

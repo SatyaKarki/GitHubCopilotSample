@@ -4,6 +4,7 @@ namespace Blog.API.Infra.LogCapture
 {
     public class ErrorMessageLog : IErrorMessageLog
     {
+        //optimize the code
         public bool LogError(string layerName, string className, string methodName, string msg)
         {
             try
